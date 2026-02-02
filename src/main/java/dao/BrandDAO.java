@@ -16,7 +16,7 @@ import utils.DBContext;
  * @author CT
  */
 public class BrandDAO extends DBContext {
-    // a
+    // aa
     public List<Brand> getAllBrand() {
         List<Brand> list = new ArrayList<>();
         String sql = "SELECT * FROM brands";
